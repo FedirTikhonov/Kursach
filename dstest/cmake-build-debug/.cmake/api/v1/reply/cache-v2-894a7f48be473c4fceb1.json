@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/ted/NewLabsOP_CPP/dstest/cmake-build-debug"
+			"value" : "/Users/ted/Documents/GitHub/Kursach/dstest/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/ted/NewLabsOP_CPP/dstest"
+			"value" : "/Users/ted/Documents/GitHub/Kursach/dstest"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1087,7 +1087,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/ted/NewLabsOP_CPP/dstest/cmake-build-debug"
+			"value" : "/Users/ted/Documents/GitHub/Kursach/dstest/cmake-build-debug"
 		},
 		{
 			"name" : "dstest_IS_TOP_LEVEL",
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/ted/NewLabsOP_CPP/dstest"
+			"value" : "/Users/ted/Documents/GitHub/Kursach/dstest"
 		}
 	],
 	"kind" : "cache",

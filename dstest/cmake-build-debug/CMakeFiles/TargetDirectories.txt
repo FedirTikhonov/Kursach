@@ -1,3 +1,3 @@
-/Users/ted/NewLabsOP_CPP/dstest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/ted/NewLabsOP_CPP/dstest/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/ted/NewLabsOP_CPP/dstest/cmake-build-debug/CMakeFiles/dstest.dir
+/Users/ted/Documents/GitHub/Kursach/dstest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ted/Documents/GitHub/Kursach/dstest/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ted/Documents/GitHub/Kursach/dstest/cmake-build-debug/CMakeFiles/dstest.dir

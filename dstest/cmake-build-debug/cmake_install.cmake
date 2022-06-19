@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ted/NewLabsOP_CPP/dstest
+# Install script for directory: /Users/ted/Documents/GitHub/Kursach/dstest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/ted/NewLabsOP_CPP/dstest/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/ted/Documents/GitHub/Kursach/dstest/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
