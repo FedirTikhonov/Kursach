@@ -11,11 +11,18 @@ private:
 public:
     T &operator[](int index);
     void pushBack(T value);
+    void sort();
     int length();
     customArr();
 };
 
 void printInt(customArr<int> arr){
+    for(int i = 0; i < arr.length(); i++){
+        std::cout << arr[i] << std::endl;
+    }
+}
+
+void printChar(customArr<char> arr){
     for(int i = 0; i < arr.length(); i++){
         std::cout << arr[i] << std::endl;
     }
@@ -62,6 +69,13 @@ template<class T>
 T &customArr<T>::operator[](int index) {
     return _arr[index];
 }
+
+template<class T>
+void customArr<T>::sort() {
+    std::sort(_arr, _arr+_length);
+}
+
+
 
 
 

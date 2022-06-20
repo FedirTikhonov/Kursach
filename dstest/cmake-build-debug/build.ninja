@@ -84,6 +84,12 @@ build CMakeFiles/dstest.dir/bstInt.cpp.o: CXX_COMPILER__dstest_Debug /Users/ted/
   OBJECT_DIR = CMakeFiles/dstest.dir
   OBJECT_FILE_DIR = CMakeFiles/dstest.dir
 
+build CMakeFiles/dstest.dir/setInt.cpp.o: CXX_COMPILER__dstest_Debug /Users/ted/Documents/GitHub/Kursach/dstest/setInt.cpp || cmake_object_order_depends_target_dstest
+  DEP_FILE = CMakeFiles/dstest.dir/setInt.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/dstest.dir
+  OBJECT_FILE_DIR = CMakeFiles/dstest.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target dstest
@@ -92,7 +98,7 @@ build CMakeFiles/dstest.dir/bstInt.cpp.o: CXX_COMPILER__dstest_Debug /Users/ted/
 #############################################
 # Link the executable dstest
 
-build dstest: CXX_EXECUTABLE_LINKER__dstest_Debug CMakeFiles/dstest.dir/main.cpp.o CMakeFiles/dstest.dir/bstInt.cpp.o
+build dstest: CXX_EXECUTABLE_LINKER__dstest_Debug CMakeFiles/dstest.dir/main.cpp.o CMakeFiles/dstest.dir/bstInt.cpp.o CMakeFiles/dstest.dir/setInt.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/dstest.dir
   POST_BUILD = :
