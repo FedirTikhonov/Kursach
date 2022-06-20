@@ -3,15 +3,16 @@
 #include "bstInt.h"
 #include "newList.h"
 #include "array.h"
+void print(DList<int> lst);
 int main() {
-    newList<int> lst;
-    lst.pushBack(3);
-    lst.pushBack(4);
-    lst.pushBack(5);
-    lst.print();
-    lst.popBack();
-    lst.popBack();
-    lst.popBack();
-    lst.print();
+    DList<int> lst;
+    lst.PushFront(7);
+    lst.PushFront(8);
+    print(lst);
     return 0;
+}
+
+void print(DList<int> lst){
+    Node<int>* tmp = lst.get(0);
+    std::cout << tmp->data;
 }
