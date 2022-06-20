@@ -1,0 +1,3 @@
+/Users/ted/Documents/GitHub/Kursach/test2mkr/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ted/Documents/GitHub/Kursach/test2mkr/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ted/Documents/GitHub/Kursach/test2mkr/cmake-build-debug/CMakeFiles/test2mkr.dir
