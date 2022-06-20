@@ -11,6 +11,7 @@ private:
 public:
     T &operator[](int index);
     void pushBack(T value);
+    void popBack();
     void sort();
     int length();
     customArr();
@@ -50,14 +51,11 @@ customArr<T>::customArr() {
 
 template<class T>
 void customArr<T>::pushBack(T value) {
-    _length+=1;
+    _length++;
     if(_length == _capacity){
         double_capacity();
-        _arr[_length - 1] = value;
     }
-    else{
-        _arr[_length - 1] = value;
-    }
+    _arr[_length - 1] = value;
 }
 
 template<class T>
@@ -74,6 +72,17 @@ template<class T>
 void customArr<T>::sort() {
     std::sort(_arr, _arr+_length);
 }
+
+template<class T>
+void customArr<T>::popBack() {
+    if(length()-1 < 0){
+        throw ("");
+    }
+    _arr[length() - 1] = NULL;
+    _length--;
+}
+
+
 
 
 
