@@ -1,4 +1,4 @@
-#include "iostream"
+#include <iostream>
 
 class bstInt {
 public:
@@ -14,8 +14,8 @@ public:
     TreeNode* getNode(int num);
     bstInt(){ root = nullptr;}
     void insert(int num);
+    void deleteNode(int value);
     void print(TreeNode* currNode, int lvl);
-
 };
 
 
